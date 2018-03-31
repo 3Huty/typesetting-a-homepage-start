@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'acherus_grotesqueregular';
+    src: url('font1/acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
+    url('font1/acherus_grotesque_-_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('font2/Museo_Slab_500_2-webfont.woff2') format('woff2'),
+    url('font2/Museo_Slab_500_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+   border-top: 5px solid #a66;
+   border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/*fonts*/
+
+h1,h2 {
+   font-family: 'acherus_grotesqueregular';
+   letter-spacing: 2.5px;
+}
+
+p, ul, ol {
+   font-family: 'museo_slab500';
+}
+
+body {
+   font-size: 12px;
+   line-height: 1.6;
+   letter-spacing: 1px;
+   word-spacing: 1.4px;
+}
+
+h1 {
+   font-size: 2.4rem;
+   text-align: center;
+}
+
+h2 {
+   font-size: 1.3rem;
+}
+.indent {
+   text-indent: 20px;
+}
+
+/*links*/
+
+a {
+   outline: none;
+   text-decoration: underline;
+   padding: 2px 1px 0;
+}
+
+a:link {
+   color: #a66;
+}
+
+a:visited {
+   color:#61210B;
+}
+
+a:focus {
+   background: #FAAC58;
+   text-decoration: none;
+}
+
+a:hover {
+   background: #c99;
+   text-decoration: none;
+}
+
+a:active {
+   background: #948991;
+   color:darkorange;
+}
+
+a[href*="http"] {
+   background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100%;
+   background-size: 10px 10px;
+   padding-right: 13px;
+}
+
+/*lists*/
+
+ul,li {
+    line-height: 1.6;
+}
+
+
+ul { 
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}
+
+/*naviation menu*/
+
+.nav a {
+    text-decoration: none; 
+    display: block;
+    width: 90%;
+    margin: 15px;
+    border: 1px solid;
+    margin-right: 4%;
+    text-align: center;
+    line-height: 4;
+    font-size: 14px;
+    color: #61210B;
+  }
