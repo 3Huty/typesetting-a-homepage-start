@@ -148,9 +148,10 @@ ol {
 
 .nav a {
     text-decoration: none; 
+    list-style-type: none;
     display: block;
-    width: 90%;
-    margin: 15px;
+    width: 85%;
+    margin: 10px;
     border: 1px solid;
     margin-right: 4%;
     text-align: center;
