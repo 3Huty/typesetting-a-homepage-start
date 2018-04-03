@@ -36,6 +36,7 @@ section {
 aside {
   float: left;
   width: 30%;
+  padding-left: 60px
 }
 
 nav {
@@ -47,7 +48,7 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header, section, nav, footer {
   padding: 20px;
 }
 
@@ -56,6 +57,10 @@ header, section, aside, nav, footer {
 header, footer {
    border-top: 5px solid #a66;
    border-bottom: 5px solid #a66;
+}
+
+p a {
+    padding-left: 24px;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -75,7 +80,7 @@ body {
    font-size: 12px;
    line-height: 1.6;
    letter-spacing: 1px;
-   word-spacing: 1.4px;
+   word-spacing: 1.2px;
 }
 
 h1 {
@@ -85,6 +90,7 @@ h1 {
 
 h2 {
    font-size: 1.3rem;
+    padding-left: 20px;
 }
 .indent {
    text-indent: 20px;
@@ -96,6 +102,7 @@ a {
    outline: none;
    text-decoration: underline;
    padding: 2px 1px 0;
+   word-spacing: none;
 }
 
 a:link {
@@ -125,12 +132,13 @@ a[href*="http"] {
    background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100%;
    background-size: 10px 10px;
    padding-right: 13px;
-}
+   }
 
 /*lists*/
 
 ul,li {
     line-height: 1.6;
+    border-spacing: 6px
 }
 
 
@@ -146,7 +154,7 @@ ol {
 
 /*naviation menu*/
 
-.nav a {
+.nav a{
     text-decoration: none; 
     list-style-type: none;
     display: block;
@@ -159,3 +167,7 @@ ol {
     font-size: 14px;
     color: #61210B;
   }
+
+nav ul {
+    list-style-type: none;
+}
