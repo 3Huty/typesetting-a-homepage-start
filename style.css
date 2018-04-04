@@ -92,7 +92,7 @@ h2 {
    font-size: 1.3rem;
     padding-left: 20px;
 }
-.indent {
+ h2 p:first-of-type {
    text-indent: 20px;
 }
 
@@ -138,18 +138,19 @@ a[href*="http"] {
 
 ul,li {
     line-height: 1.6;
-    border-spacing: 6px
 }
 
 
 ul { 
     list-style-type: square;
     list-style-position: outside;
+    border-spacing: 2px;
 }
 
 ol {
     list-style-type: lower-alpha;
     list-style-position: outside;
+    border-spacing: 2px;
 }
 
 /*naviation menu*/
