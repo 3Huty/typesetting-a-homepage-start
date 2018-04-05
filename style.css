@@ -93,7 +93,7 @@ h2 {
    padding-left: 20px;
 }
 
-section p:first-of-type {
+h2 + p {
    text-indent: 20px;
 }
 
